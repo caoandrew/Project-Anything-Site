@@ -7,7 +7,7 @@
 	
 	<body>
 		<ul>
-			<li><img src="ProjectAnything.png" alt="Project Anything" style="width:150px;height:40px;margin-top:0;margin-bottom:0;margin-left:15px;margin-right:10px;"></li>
+			#<li><img src="ProjectAnything.png" alt="Project Anything" style="width:150px;height:40px;margin-top:0;margin-bottom:0;margin-left:15px;margin-right:10px;"></li>
  			<li><a class="active" href="#home">Project Anything</a></li>
  			<li><a href="#Portfolio">Portfolio</a></li>
   			<li><a href="#Investing">Investing</a></li>
