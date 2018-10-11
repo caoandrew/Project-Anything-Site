@@ -1,6 +1,8 @@
 # Project-Anything-Site
 Project Anything Site Beta
 
+SITE IN PROGRESS
+
 Site for the Century HS Project Anything club initiative.
 
 We are Project Anything
