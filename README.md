@@ -2,6 +2,7 @@
 Project Anything Site Beta
 
 SITE IN PROGRESS
+Example Site: http://bdpastudents.com/~a6103602/PROJECT%20ANYTHING/Home.php
 
 Site for the Century HS Project Anything club initiative.
 
