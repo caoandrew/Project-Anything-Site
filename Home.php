@@ -31,7 +31,7 @@
 		<br>
 		<p><center><font size="16">Project Anything</font></center></p>
 		<br>
-		<center><img src="PATrans.png" alt="Project Anything"></center>
+		<center><img src="PATrans.png" alt="Project Anything" style="width:20%;height:22.25%;"></center>
 		<br>
 		<p><center><font size="14" color="#55AEF9">Coming Soon.</font></center></p>
 		<br>
