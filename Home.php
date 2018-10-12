@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="icon" type="image/png" href="PATrans.png"/>
 		<title>Project Anything</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
