@@ -49,11 +49,12 @@ li img {
 li a:hover:not(.active) {
     background-color: #606060;
     color: #f3f3f3;
+    box-shadow: 2px 6px 5px #505050;
 }
 
 li img:hover:not(.active) {
     background-color: #f3f3f3;
-    box-shadow: 1px 5px 4px #505050;
+    box-shadow: 1px 5px 4px #DCDCDC;
     color: #f3f3f3;
 }
 
