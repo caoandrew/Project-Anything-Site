@@ -33,10 +33,10 @@ li a {
     left: 50%;
     width: 20%;
     margin: 0 auto;
-    -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
+    -webkit-transition: background-color 0.7s ease-out;
+  -moz-transition: background-color 0.7s ease-out;
+  -o-transition: background-color 0.7s ease-out;
+  transition: background-color 0.7s ease-out;
 
 }
 
@@ -47,11 +47,7 @@ li img {
     margin-top: 0.5%;
     margin-bottom: 0%;
     float: left;
-    -webkit-transition: background-color 1s ease-out;
-  -moz-transition: background-color 1s ease-out;
-  -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
-    
+   
    
 }
 
@@ -63,14 +59,7 @@ li a:hover:not(.active) {
     cursor: pointer;
 }
 
-li img:hover:not(.active) {
-    background-color: #f3f3f3;
-    box-shadow: 1px 5px 4px #DCDCDC;
-    color: #f3f3f3;
-    cursor: pointer;
-}
 
- 
 
 
 
