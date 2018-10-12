@@ -35,7 +35,7 @@
 		<br>
 		<p><center><font size="14" color="#55AEF9">Coming Soon.</font></center></p>
 		<br>
-		<p><center><font size="14">Explore.</font></center></p>
+		<p><center><font size="14">Learn. Explore. Create.</font></center></p>
 		<br>
 		
 		<center><div class="lds-facebook"><div></div><div></div><div></div></div></center>
