@@ -193,7 +193,23 @@ li a:hover:not(.active) {
     display: block;
 }
 
+#pendother a {
+    color: white;
+    text-decoration: none;
+}
 
+
+#pendother:hover {
+    color: #00FF00;
+}
+
+#pendother a:hover {
+    color: #00FF00;
+}
+
+#pend:hover {
+    color: #00FF00;
+}
 
 
 /*BANNERS END----------------------------------------------------------------------------
