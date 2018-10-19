@@ -66,9 +66,9 @@
         <div id="headerend">
             <center>
             <p id="pend">Project Anything ©2018</p>
-            <p id="pendother">Contact Us</p> 
-            <p id="pendother">Investor Document</p>
-            <p id="pendother">Advisor Contact</p>
+            <p id="pendother"><a href="mailto:projectanythingchs@gmail.com?Subject=Email%20From%20Website" target="_top">Contact Us</a></p> 
+            <p id="pendother"><a href="Investor Information.pdf" download>Investor Document</a></p>
+            <p id="pendother"><a href="mailto:jobartucz@isd535.org?Subject=Email%20From%20Project%20Anything%20Website" target="_top">Advisor Contact</a></p>
             </center>
         </div>
 		
