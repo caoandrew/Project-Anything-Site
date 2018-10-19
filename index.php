@@ -3,7 +3,7 @@
 	<head>
 		<title>Project Anything</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="icon" type="image/png" href="favicon (1).ico"/>
+		<link rel="icon" type="image/png" href="favicon.ico"/>
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
