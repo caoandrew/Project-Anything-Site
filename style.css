@@ -1,6 +1,13 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
 body {
-    font-family:-apple-system, system-ui, BlinkMacSystemFont;
+    font-family: Raleway;
+    margin: 0;
 }
+
+
+/* NAVIGATION ----------------------------------------------------------------------------
+----------------------------------------------------------------------------*/
 
 ul {
     list-style-type: none;
@@ -10,7 +17,7 @@ ul {
     /* border: 1px solid #e7e7e7;*/
     background-color: #f3f3f3;
     box-shadow: 1px 5px 4px #DCDCDC;
-    font-family:-apple-system, system-ui, BlinkMacSystemFont;
+    font-family: Raleway;
     font-size: 125%;
 }
 
@@ -29,14 +36,19 @@ li a {
     text-decoration: none;
     list-style-type: none;
     left: 50%;
-    width: 10%;
+    width: 20%;
     margin: 0 auto;
-    
+    -webkit-transition: background-color 0.7s ease-out;
+  -moz-transition: background-color 0.7s ease-out;
+  -o-transition: background-color 0.7s ease-out;
+  transition: background-color 0.7s ease-out;
+
 }
 
 li img {
     width:2%;
-    height:2.225%;
+    height:2.2%;
+    
     margin: 1%;
     margin-top: 0.5%;
     margin-bottom: 0%;
@@ -49,26 +61,194 @@ li img {
 li a:hover:not(.active) {
     background-color: #606060;
     color: #f3f3f3;
+    
+    cursor: pointer;
 }
 
-li img:hover:not(.active) {
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 7%; /* Place the button at the bottom of the page */
+    right: 5%; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #E8E8E8; /* Set a background color */
+    color: #686868; /* Text color */
+    font-family: Raleway;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 30px ; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+
+    font-size: 18px; /* Increase font size */
+    
+    -webkit-transition: background-color 0.7s ease-out;
+  -moz-transition: background-color 0.7s ease-out;
+  -o-transition: background-color 0.7s ease-out;
+  transition: background-color 0.7s ease-out;
+}
+
+#myBtn:hover {
+    background-color: #686868; /* Add a dark-grey background on hover */
+    color: #E8E8E8;
+}
+
+
+
+/* NAVIGATION ----------------------------------------------------------------------------
+----------------------------------------------------------------------------*/
+
+
+/*BANNERS----------------------------------------------------------------------------
+----------------------------------------------------------------------------*/
+
+#top {
+    
+}
+
+#projectanything {
+    background: skyblue;
+    height: 500px;
+    padding: 100px 100px;
+    margin-top: 7%;
+    
+}
+#pprojectanything {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: Raleway;
+    
+}
+
+#portfolio {
+    background: white;
+    height: 500px;
+    padding: 100px 100px;
+    
+}
+
+#pportfolio {
+    color: #383838;
+    width: 100%;
+    text-align: center;
+    font-family: Raleway;
+    
+}
+
+#investing {
+    background: lightgreen;
+    height: 500px;
+    padding: 100px 100px;
+    
+}
+
+#pinvesting {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: Raleway;
+    
+}
+
+#contact {
+    background: white;
+    height: 500px;
+    padding: 100px 100px;
+    
+}
+
+#pcontact {
+    color: #383838;
+    width: 100%;
+    text-align: center;
+    font-family: Raleway;
+    
+}
+
+#headerend {
+    background: #383838;
+    height: 90px;
+    padding: 20px 20px;
+   
+}
+
+
+#pend {
+    color: white;
+    margin-left: 30%;
+    width: 10%;
+    text-align: center;
+    font-family: Raleway;
+    float: left;
+    display: block;
+}
+
+#pendother {
+    color: white;
+    width: 10%;
+    text-align: center;
+    font-family: Raleway;
+    float: left;
+    display: block;
+}
+
+#pendother a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#pendother:hover {
+    color: #00FF00;
+}
+
+#pendother a:hover {
+    color: #00FF00;
+}
+
+#pend:hover {
+    color: #00FF00;
+}
+
+
+/*BANNERS END----------------------------------------------------------------------------
+----------------------------------------------------------------------------*/
+/*US BOXES----------------------------------------------------------------------------
+----------------------------------------------------------------------------*/
+
+#profile {
+    width: 20%;
+    height: 80%;
+    padding: 25px;
+    border: 0;
+    margin: 0;
+    margin-right: 3%;
+    margin-left: 3%;
     background-color: #f3f3f3;
     box-shadow: 1px 5px 4px #DCDCDC;
-    color: #f3f3f3;
+    display: inline-block;
+    border-radius: 10px;
 }
 
-body {
-    margin: 0;
-}
 
-/*
+
+
+
+/*US BOXES END----------------------------------------------------------------------------
+----------------------------------------------------------------------------*/
+
+
+
+/*----------------------------------------------------------------------------
 li a.active {
     color: white;
     background-color: #666;
 }
-*/
+----------------------------------------------------------------------------*/
 
-/* ROLLER ANIMATION */
+/* ROLLER ANIMATION ----------------------------------------------------------------------------
+----------------------------------------------------------------------------*/
 
 .lds-facebook {
   display: inline-block;
@@ -107,4 +287,157 @@ li a.active {
   }
 }
 
-/* ROLLER ANIMATION END */
+/* ROLLER ANIMATION END ----------------------------------------------------------------------------
+----------------------------------------------------------------------------*/
+
+/*LOADING SCREEN----------------------------------------------------------------------------
+----------------------------------------------------------------------------*/
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #3498db;
+
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    z-index: 1001;
+}
+
+    #loader:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #e74c3c;
+
+        -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+        animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+
+    #loader:after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #f9c922;
+
+        -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+          animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+
+    @-webkit-keyframes spin {
+        0%   { 
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+    @keyframes spin {
+        0%   { 
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+
+    #loader-wrapper .loader-section {
+        position: fixed;
+        top: 0;
+        width: 51%;
+        height: 100%;
+        background: #222;
+        z-index: 1000;
+    }
+
+    #loader-wrapper .loader-section.section-left {
+        left: 0;
+    }
+    #loader-wrapper .loader-section.section-right {
+        right: 0;
+    }
+
+    /* Loaded styles */
+    .loaded #loader-wrapper .loader-section.section-left {
+        -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateX(-100%);  /* IE 9 */
+                transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+        -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+                transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+    }
+    .loaded #loader-wrapper .loader-section.section-right {
+        -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateX(100%);  /* IE 9 */
+                transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+
+        -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+                transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+    }
+    .loaded #loader {
+        opacity: 0;
+
+        -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+                transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+
+    }
+    .loaded #loader-wrapper {
+        visibility: hidden;
+
+        -webkit-transform: translateY(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateY(-100%);  /* IE 9 */
+                transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
+    
+        -webkit-transition: all 0.3s 1s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+                transition: all 0.3s 1s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+    }
+
+    #content {
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 80%;
+        max-width: 978px;
+    }
+
+/*LOADING SCREEN END----------------------------------------------------------------------------
+----------------------------------------------------------------------------*/
+
+
